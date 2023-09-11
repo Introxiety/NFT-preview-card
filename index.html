@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
- 
-</head>
-<body>
-  <main>
-    <img src="images/image-equilibrium.jpg" alt="">
-    <h1>Equilibrium #3429</h1>
-    <p>Our Equilibrium collection promotes balance and calm.</p>
-    <p class="price-container"><img src="images/icon-ethereum.svg" alt="">0.041 ETH<span class="time-remaining">3 days left</span></p>
-    <div class="profile-container">
-      <img src="images/image-avatar.png" alt="" class="profle-picture">
-      <p>Creation of <span class="profile-name">Jules Wyvern</span> 
-      </p>
-    </div>
-  </main>
-</body>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="flex-center">
+    <main>
+      <img src="images/image-equilibrium.jpg" alt="" />
+      <h1>Equilibrium #3429</h1>
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+
+      <section class="price-container">
+      <p>
+        <img src="images/icon-ethereum.svg" alt="" />0.041 ETH
+      </p><span
+      class="time-remaining"><img src="images/icon-clock.svg" alt=""/>3 days left</span>
+    </section>
+    <hr>
+      <section class="profile-container flex">
+        <img src="images/image-avatar.png" alt="" class="profile-picture" />
+        <p>Creation of <span class="profile-name">Jules Wyvern</span></p>
+      </section>
+    </main>
+  </body>
 </html>
