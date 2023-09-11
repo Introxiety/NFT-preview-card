@@ -107,7 +107,7 @@ main h1{
 }
 
 main p{
-    color: var(--Very-dark-line);
+    color: var(--Soft-blue);
 }
 
 .price-container{
@@ -133,6 +133,7 @@ main p{
 .time-remaining{
     display: flex;
     gap: .5rem;
+    color: var(--Soft-blue);
 }
 
 .profile-container{
